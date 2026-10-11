@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Breakout Game</h1>
+
+        <div class="game-info">
+            <p>Score: <span id="score">0</span> </p>
+            <p>Live: <span id="lives">3</span> </p>
+            <p>Level1: <span id="level">1</span> </p>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <p class="instructions">
+            Move: ← → | Launch: Space | Pause: P
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
